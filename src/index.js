@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import MyInfo from "./MyInfo.js";
+import MyInfo from "./components/MyInfo.js";
 
 ReactDOM.render(
   <MyInfo />,
