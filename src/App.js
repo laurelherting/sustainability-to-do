@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <main>
         <p>This is where most of my content will go</p>
       </main>
+      <Footer />
     </div>
   );
 }
