@@ -1,7 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from "./App.js";
+function App () {
+  const wordOne = "Climate"
+  const wordTwo = "Change"
+
+  return (
+    <h1>Research {`${wordOne} ${wordTwo}`}!</h1>
+  )
+};
 
 ReactDOM.render(
   <App />,
