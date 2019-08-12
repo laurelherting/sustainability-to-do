@@ -1,16 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
-function App () {
-  const wordOne = "Climate"
-  const wordTwo = "Change"
+function App() {
+  const date = new Date();
 
   return (
-    <h1>Research {`${wordOne} ${wordTwo}`}!</h1>
+    <h1>It is currently about {date.getHours() % 12} o'clock!</h1>;
   )
-};
+}
 
-ReactDOM.render(
-  <App />,
-  document.getElementById("root")
-);
+ReactDOM.render(<App />, document.getElementById("root"));
