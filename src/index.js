@@ -14,7 +14,7 @@ function App() {
     timeOfDay = "night";
   }
 
-  return <h1 style={{ color: "#00FFFF" }}>Good {timeOfDay}!</h1>;
+  return <h1 style={{ color: "#00FFFF", backgroundColor: "#FFF" }}>Good {timeOfDay}!</h1>;
 }
 
 ReactDOM.render(<App />, document.getElementById("root"));
