@@ -16,7 +16,8 @@ function App() {
 
   const styles = {
     color: "#00FFFF",
-    backgroundColor: "#FFF"
+    backgroundColor: "#FFF",
+    fontSize: "24px"
   };
 
   return (
