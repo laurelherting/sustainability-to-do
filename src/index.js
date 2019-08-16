@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 
 function App() {
   const date = new Date();
+  // const date = new Date(2019, 8, 16);
   const hours = date.getHours();
   let timeOfDay;
   const styles = {
