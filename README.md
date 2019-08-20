@@ -1,5 +1,4 @@
 React.js app - To-do List of sustainable living
-Includes Meme Generator
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
