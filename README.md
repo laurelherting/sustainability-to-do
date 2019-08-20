@@ -1,4 +1,6 @@
-React.js app - To-do List of sustainable living
+### React.js app - To-do List of sustainable living
+This app lists items to do for sustainability.
+Changes in styling, attributes are ongoing.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
