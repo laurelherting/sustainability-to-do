@@ -10,11 +10,19 @@ body {
   color: #708090;
   display: flex;
   font-weight: 100;
-  fonst-size: 16px;
+  font-size: 16px;
   padding: 30px 20px 0;
-  justify-content: flex-start;
   align-items: center;
-  border-bottom: 1px solid #8B008B;
+  border-bottom: 1px solid #8b008b;
   font-family: Roberto, sans-serif;
   width: 70%;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+input[type="checkbox"]:focus {
+  outline: 0;
 }
