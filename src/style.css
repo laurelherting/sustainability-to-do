@@ -5,3 +5,16 @@ body {
 .navbar {
   color: blue;
 }
+
+.todo-item {
+  color: #708090;
+  display: flex;
+  font-weight: 100;
+  fonst-size: 16px;
+  padding: 30px 20px 0;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #8B008B;
+  font-family: Roberto, sans-serif;
+  width: 70%;
+}
