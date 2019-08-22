@@ -1,9 +1,18 @@
 body {
-  margin: 0;
+  background-color: whitesmoke;
 }
 
-.navbar {
-  color: blue;
+.todo-list {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #d7d7d7;
+  padding: 30px;
+  box-shadow:
+    /* top layer shadow */ 0 1px 1px rgba(0, 0, 0, 0.15);
 }
 
 .todo-item {
