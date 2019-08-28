@@ -29,13 +29,14 @@ body {
   border-bottom: 1px solid #8b008b;
   font-family: Roberto, sans-serif;
   width: 70%;
+  justify-content: flex-start;
 }
 
-input[type="checkbox"] {
+input[type=checkbox] {
   margin-right: 10px;
   font-size: 30px;
 }
 
-input[type="checkbox"]:focus {
+input[type=checkbox]:focus {
   outline: 0;
 }
