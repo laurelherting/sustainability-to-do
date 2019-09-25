@@ -1,4 +1,6 @@
-### React.js app - To-do List of sustainable living
+## React.js app - To-do List of sustainable living
+
+beta - practice implementing React in app 2019
 
 In-depth React review
 
