@@ -1,21 +1,27 @@
 ## React.js app - To-do List of sustainable living
 
-beta - practice implementing React in app 2019
+Practice implementing React in app 2019
 
 In-depth React review
 
-- includes:
-  1. ReactDOM and JSX practice
-  2. Functional Components Practice
-  3. Parent/Child Component Practice
-  4. Todo App - Part 1
-  - JSX to JavaScript and Back
-  - Inline Styles with the Style Property
-  7. Todo App - Part 2
-  - Props - resusable components
+Includes:
+
+1. ReactDOM and JSX practice
+2. Functional Components Practice
+3. Parent/Child Component Practice
+4. Todo App - Part 1
+
+- JSX to JavaScript and Back
+- Inline Styles with the Style Property
+
+7. Todo App - Part 2
+
+- Props - resusable components
 
 This app lists items to do for sustainability.
 Changes in styling, attributes are ongoing.
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
