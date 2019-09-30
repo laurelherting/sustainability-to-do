@@ -1,10 +1,10 @@
 ## React.js app - To-do List of sustainable living
 
-Practice implementing React in app 2019
+Practice implementing React
 
-In-depth React review
+In-depth React review: React v16.6.0
 
-Includes:
+Practice Includes:
 
 1. ReactDOM and JSX practice
 2. Functional Components Practice
@@ -18,8 +18,10 @@ Includes:
 
 - Props - resusable components
 
-This app lists items to do for sustainability.
-Changes in styling, attributes are ongoing.
+This app lists items to do for theme: sustainability.
+
+- Follow App commits to view updated work related to topic being covered
+  - ie. styling, attributes, components
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
