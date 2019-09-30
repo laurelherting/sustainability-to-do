@@ -1,7 +1,12 @@
 import React from "react";
 
-function ClimateChangePlan() {
-  return <h1>hi</h1>;
+function ClimateChangePlan(props) {
+  return (
+    <div>
+      <h3>Problem: {props.problem}</h3>
+      <h3>Solution: {props.solution}</h3>
+    </div>
+  );
 }
 
 export default ClimateChangePlan;
