@@ -7,7 +7,7 @@ function ClimateChangePlan(props) {
         Solution: {props.solution}
       </h3>
       <h3>Details: {props.details}</h3>
-      <br />
+      <hr />
     </div>
   );
 }
