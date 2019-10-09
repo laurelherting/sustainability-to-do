@@ -7,7 +7,6 @@ function App() {
   const doubled = nums.map(function(num) {
     return (num = 2);
   });
-  console.log(doubled);
 
   return (
     <div>
