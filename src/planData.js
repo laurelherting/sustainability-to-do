@@ -23,5 +23,6 @@ const planData = [
     May 2020, giving Council ample time to consider referring a possible
     measure to the November 2020 ballot."
   }
-]
+];
+
 export default planData;
