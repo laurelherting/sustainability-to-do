@@ -5,8 +5,8 @@ const planData = [
   },
   {
     id: 2,
-    solution: "Establishing a new Office of Climate Action, Sustainability and Resiliency
-    that will report directly to the Mayor.",
+    solution: 'Establishing a new Office of Climate Action, Sustainability and Resiliency
+    that will report directly to the Mayor.',
     details: "The office will be established by ordinance with City Council approval
     by Oct. 31 and will be fully functional by July 1, 2020. It will combine personnel from
     the existing Office of Sustainability and the Denver Department of Public Health &
