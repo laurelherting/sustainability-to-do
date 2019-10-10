@@ -4,9 +4,8 @@ import Plan from "./Plan";
 import planData from "./planData";
 
 function App() {
-  const planComponents = planData.map(plan => (
-    <plan solution={plan.solution} details={plan.details} />
-  ));
+  const planComponents = planData.map(plan =>
+    <plan key={plan.id} solution={plan.solution} details={plan.details} />)
 
   return (
     <div>
