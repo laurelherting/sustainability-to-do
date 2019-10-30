@@ -1,9 +1,9 @@
 import React from "react";
 
-function Product(props) {
+function productsData {
   return (
     <div>
-      <h2>{props.product.name}</h2>
+      <h2>Data goes here</h2>
     </div>;
   )
 }
