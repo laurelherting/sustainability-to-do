@@ -1,12 +1,9 @@
 import React from "react";
-import Product from "./Product";
-import productsData from "./climateChangeProducts";
+import TodoItem from "./TodoItem";
 
 function App() {
-  const productComponents = productsData.map(item => <Product key={item.id}
-    product={item} />
-  );
-  return <div>{productComponents}</div>;
+  return <div className="todo-list"></div>;
+  <TodoItem />;
 }
 
 export default App;
