@@ -11,7 +11,6 @@ class App extends React.Component {
 
   }
   render() {
-     const style = this.dateMethodHere();
     return (
       <div><h1>Text goes here</h1></div>
     )
