@@ -1,8 +1,10 @@
 import React from "react";
 
-// function App() {
+// function App(props) {
   // return (
-    // <div>text goes here</div>
+    // <div>
+      // <h1>{props.text</h1>
+    // </div>
   // );
 // }
 
@@ -12,7 +14,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div><h1>Text goes here</h1></div>
+      <div><h1>this.props.text</h1></div>
     )
   }
 }
