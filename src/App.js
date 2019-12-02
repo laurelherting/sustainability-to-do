@@ -10,8 +10,8 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Is state important to know? {this.state.answer}</h1>
-        <ChildComponent answer={this.state.answer}/>
+        <h1>{this.state.name}</h1>
+        <h3>{this.state.number}</h3>
       </div>
     );
   }
