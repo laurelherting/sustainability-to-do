@@ -1,7 +1,11 @@
 import React from "react";
 
 function App() {
-    return <div>put onClick handler here</div>; 
+    return (
+      <div>
+        <button onMouseOver="myFunction()">Click here</button>
+      </div>
+    );
 }
 
 export default App;
