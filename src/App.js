@@ -3,7 +3,7 @@ import React from "react";
 function App() {
     return (
       <div>
-        <button onMouseOver="myFunction()">Click here</button>
+        <button onClck={function() {console.log("I was clicked!")}}>Click here</button>
       </div>
     );
 }
