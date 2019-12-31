@@ -14,9 +14,15 @@ Practice Includes:
 - JSX to JavaScript and Back
 - Inline Styles with the Style Property
 
-7. Todo App - Part 2
+5. Todo App - Part 2
 
 - Props - resusable components
+- Mapping Components
+
+6. Todo App - Part 3
+
+- Class-based components
+- State
 
 This app lists items to do for theme: sustainability.
 
