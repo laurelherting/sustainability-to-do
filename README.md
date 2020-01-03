@@ -24,6 +24,14 @@ Practice Includes:
 - Class-based components
 - State
 
+7. Todo App - Part 4
+
+- Handling events in React
+
+8. Todo App - Part 5
+
+- Changing State
+
 This app lists items to do for theme: sustainability.
 
 - Follow App commits to view updated work related to topic being covered
