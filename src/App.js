@@ -1,11 +1,21 @@
 import React from "react"
 
-function App() {
+class App extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      count: 0
+    }
+  }
+
+  render() {
     return (
       <div>
-        <button onClck={() => console.log("I was clicked!")}>Click here</button>
+        <h1>{this.state.count}</h1>
+        <button>Change!</button>
       </div>
     )
+  }
 }
 
-export default App;
+export default App
