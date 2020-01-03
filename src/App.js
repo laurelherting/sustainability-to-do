@@ -6,10 +6,11 @@ class App extends React.Component {
     this.state = {
       count: 0
     }
+    this.handleClick = this.handleClick.bind(this)
   }
 
   handleClick() {
-    console.log("I'm working")
+    this.setState({ count: 1 })
   }
 
   render() {
