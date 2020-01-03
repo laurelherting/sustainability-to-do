@@ -32,6 +32,11 @@ Practice Includes:
 
 - Changing State
 
+9. Todo App - Part 6
+
+- Lifecycle Methods Part 1
+- Lifecycle Methods Part 2
+
 This app lists items to do for theme: sustainability.
 
 - Follow App commits to view updated work related to topic being covered
