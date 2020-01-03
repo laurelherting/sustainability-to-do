@@ -8,11 +8,15 @@ class App extends React.Component {
     }
   }
 
+  handleClick() {
+    console.log("I'm working")
+  }
+
   render() {
     return (
       <div>
         <h1>{this.state.count}</h1>
-        <button>Change!</button>
+        <button onClick={this.handleClick}>Change!</button>
       </div>
     )
   }
