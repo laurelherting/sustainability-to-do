@@ -1,27 +1,23 @@
 import React from "react"
+import TodoItem from "./TodoItem"
 
 class App extends React.Component {
   constructor() {
     super()
     this.state = {
-      count: 0
+      todos: todosData
     }
-    this.handleClick = this.handleClick.bind(this)
+    this.handleChange= this.handleChange.bind(this)
   }
 
-  handleClick() {
-    this.setState(prevState => {
-      return {
-        count: prevState.count + 1
-      }
-    })
+  handleChange(id) {
+    console.log("Changed", id)
   }
 
   render() {
     return (
-      <div>
-        <h1>{this.state.count}</h1>
-        <button onClick={this.handleClick}>Change!</button>
+      <div className = "todo-list">
+        {todoItems}
       </div>
     )
   }
