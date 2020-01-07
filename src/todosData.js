@@ -1,7 +1,7 @@
 
 import React from "react"
 
-function todosItem() {
+function todosData() {
   return (
     <div>
       <p>text here</p>
