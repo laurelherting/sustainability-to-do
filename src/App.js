@@ -31,4 +31,4 @@ render() {
     handleChange={this.handleChange} />)
 }
 
-export default App
+ReactDOM.render(<App />, document.getElementById('root'));
