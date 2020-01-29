@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 function TodoItem(props) {
   return (
@@ -10,7 +10,7 @@ function TodoItem(props) {
       />
       <p>{props.item.text}</p>
     </div>
-  )
+  );
 }
 
-export default TodoItem
+export default TodoItem;

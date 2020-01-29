@@ -29,6 +29,6 @@ const todosData = [
     text: "Donate to one environmental cause",
     completed: false
   }
-]
+];
 
-export default todosData
+export default todosData;
