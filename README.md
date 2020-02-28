@@ -6,41 +6,43 @@ In-depth React review: React v16.6.0
 
 Practice Includes:
 
-1. ReactDOM and JSX practice
-2. Functional Components Practice
-3. Parent/Child Component Practice
-4. Todo App - Part 1
+1.  ReactDOM and JSX practice
+2.  Functional Components Practice
+3.  Parent/Child Component Practice
+4.  Todo App - Part 1
 
-- JSX to JavaScript and Back
-- Inline Styles with the Style Property
+* JSX to JavaScript and Back
+* Inline Styles with the Style Property
 
-5. Todo App - Part 2
+5.  Todo App - Part 2
 
-- Props - resusable components
-- Mapping Components
+* Props - resusable components
+* Mapping Components
 
-6. Todo App - Part 3
+6.  Todo App - Part 3
 
-- Class-based components
-- State
+* Class-based components
+* State
 
-7. Todo App - Part 4
+7.  Todo App - Part 4
 
-- Handling events in React
+* Handling events in React
 
-8. Todo App - Part 5
+8.  Todo App - Part 5
 
-- Changing State
+* Changing State
 
-9. Todo App - Part 6
+9.  Todo App - Part 6
 
-- Lifecycle Methods Part 1
-- Lifecycle Methods Part 2
+* Lifecycle Methods Part 1
+* Lifecycle Methods Part 2
+
+* Conditional Rendering
 
 This app lists items to do for theme: sustainability.
 
-- Follow App commits to view updated work related to topic being covered
-  - ie. styling, attributes, components
+* Follow App commits to view updated work related to topic being covered
+  * ie. styling, attributes, components
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
