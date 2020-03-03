@@ -36,8 +36,9 @@ Practice Includes:
 
 * Lifecycle Methods Part 1
 * Lifecycle Methods Part 2
-
 * Conditional Rendering
+
+---
 
 This app lists items to do for theme: sustainability.
 
