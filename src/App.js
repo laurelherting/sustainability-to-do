@@ -7,7 +7,7 @@ class App extends Component {
   }
 
   render() {
-    return <div>code here</div>;
+    return <div>conditional loading here</div>;
   }
 }
 
