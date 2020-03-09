@@ -1,4 +1,5 @@
 import React from "react";
+import Conditional from "./Conditional";
 
 class App extends Component {
   constructor() {
@@ -7,7 +8,7 @@ class App extends Component {
   }
 
   render() {
-    return <div>conditional loading here</div>;
+    return <div>Conditional isLoading={} /></div>;
   }
 }
 
