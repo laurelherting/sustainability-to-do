@@ -4,7 +4,7 @@ function Conditional(props) {
   if (props.isLoading === true) {
     return <h1>Loading...</h1>;
   } else {
-    return <h1>conditional rendering stuff here</h1>;
+    return <h1>Temperature</h1>;
   }
 }
 
