@@ -5,21 +5,20 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      isLoading: true
+      unreadMessages: [
+        "Call your senator",
+        "New email available. Click links for further instructions."
+      ]
     };
-  }
-
-  componentDidMount() {
-    setTimeout(() => {
-      this.setState({
-        isLoading: false
-      });
-    }, 1500);
   }
 
   render() {
     return (
-      <div>{this.state.isLoading ? <h1>Loading...</h1> : <Conditional />}</div>
+      <div>
+        {this.state.unreadMessages.length > 0 ? (
+          <h2>You have {this.state.unreadMessages.length} unread messages</h2>
+        ) : null}
+      </div>
     );
   }
 }
