@@ -18,7 +18,11 @@ class App extends React.Component {
   }
 
   render() {
-    return <div></div>;
+    return (
+      <div>
+        <button onClick={this.handleClick}>LOG IN</button>
+      </div>
+    );
   }
 }
 
