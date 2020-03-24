@@ -18,9 +18,11 @@ class App extends React.Component {
   }
 
   render() {
+    let buttonText = this.state.isLoggedIn ? "LOG OUT" : "LOG IN";
+    let displayText = this.state.isLoggedIn ? "Logged in" : "Logged out";
     return (
       <div>
-        <button onClick={this.handleClick}>LOG IN</button>
+        <button onClick={this.handleClick}>{buttonText}</button>
       </div>
     );
   }
