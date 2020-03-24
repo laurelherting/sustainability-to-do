@@ -1,25 +1,24 @@
 import React from "react";
-import Conditional from "./Conditional";
 
-class App extends Component {
+class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      unreadMessages: [
-        "Call your senator",
-        "New email available. Click links for further instructions."
-      ]
+      isLoggedIn: false
     };
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick() {
+    this.setState(prevState => {
+      return {
+        isLoggedIn: !prevState.isLoggedIn
+      };
+    });
   }
 
   render() {
-    return (
-      <div>
-        {this.state.unreadMessages.length > 0 && (
-          <h2>You have {this.state.unreadMessages.length} unread messages</h2>
-        )}
-      </div>
-    );
+    return <div></div>;
   }
 }
 
