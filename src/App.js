@@ -15,9 +15,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        {this.state.unreadMessages.length > 0 ? (
+        {this.state.unreadMessages.length > 0 && (
           <h2>You have {this.state.unreadMessages.length} unread messages</h2>
-        ) : null}
+        )}
       </div>
     );
   }
