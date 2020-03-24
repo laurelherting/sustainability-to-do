@@ -6,10 +6,16 @@ class App extends React.Component {
     this.state = {};
   }
 
+  handleChange() {}
+
   render() {
     return (
       <form>
-        <input />
+        <input
+          type="text"
+          placeholder="First Name"
+          onChange={this.handleChange}
+        />
       </form>
     );
   }
