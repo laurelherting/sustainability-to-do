@@ -19,6 +19,15 @@ class App extends React.Component {
           placeholder="First Name"
           onChange={this.handleChange}
         />
+        <br />
+        <input
+          type="text"
+          placeholder="Last Name"
+          onChange={this.handleChange}
+        />
+        <h1>
+          {this.state.firstName} {this.state.lastName}
+        </h1>
       </form>
     );
   }
