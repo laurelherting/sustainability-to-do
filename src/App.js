@@ -9,19 +9,25 @@ class App extends React.Component {
     };
   }
 
-  handleChange() {}
+  handleChange(event) {
+    this.setState({
+      firstName: event.target.value
+    });
+  }
 
   render() {
     return (
       <form>
         <input
           type="text"
+          name="firstName"
           placeholder="First Name"
           onChange={this.handleChange}
         />
         <br />
         <input
           type="text"
+          name="lastName"
           placeholder="Last Name"
           onChange={this.handleChange}
         />
