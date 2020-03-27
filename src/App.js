@@ -6,7 +6,8 @@ class App extends React.Component {
     this.state = {
       firstName: "",
       lastName: "",
-      isInterested: true
+      isInterested: true,
+      gender: ""
     };
   }
 
@@ -40,6 +41,8 @@ class App extends React.Component {
 
         <textarea value={"default value"} onChange={this.handleChange} />
 
+        <br />
+
         <label>
           <input
             type="checkbox"
@@ -48,6 +51,28 @@ class App extends React.Component {
             onChange={this.handleChange}
           />{" "}
           Is interested?
+        </label>
+        <br />
+        <label>
+          <input
+            type="radio"
+            name="gender"
+            value="male"
+            checked={this.state.gender === "male"}
+            onChange={this.handleChange}
+          />{" "}
+          Male
+        </label>
+        <br />
+        <label>
+          <input
+            type="radio"
+            name="gender"
+            value="female"
+            checked={this.state.gender === "female"}
+            onChange={this.handleChange}
+          />{" "}
+          Female
         </label>
 
         <h1>
