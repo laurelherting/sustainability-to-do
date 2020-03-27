@@ -34,6 +34,9 @@ class App extends React.Component {
           placeholder="Last Name"
           onChange={this.handleChange}
         />
+
+        <textarea value={"default value"} />
+
         <h1>
           {this.state.firstName} {this.state.lastName}
         </h1>
