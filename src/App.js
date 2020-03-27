@@ -7,7 +7,8 @@ class App extends React.Component {
       firstName: "",
       lastName: "",
       isInterested: true,
-      gender: ""
+      gender: "",
+      favDay: "Sunday"
     };
   }
 
@@ -74,6 +75,12 @@ class App extends React.Component {
           />{" "}
           Female
         </label>
+
+        <select value={this.state.favDay}>
+          <option></option>
+          <option></option>
+          <option></option>
+        </select>
 
         <h1>
           {this.state.firstName} {this.state.lastName}
