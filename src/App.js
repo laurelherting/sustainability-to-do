@@ -38,7 +38,7 @@ class App extends React.Component {
           onChange={this.handleChange}
         />
 
-        <textarea value={"default value"} />
+        <textarea value={"default value"} onChange={this.handleChange} />
 
         <label>
           <input
