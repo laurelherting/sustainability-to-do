@@ -11,10 +11,12 @@ class App extends React.Component {
   }
 
   handleChange(event) {
-    const { name, value } = event.target;
-    this.setState({
-      [name]: value
-    });
+    const { name, value, type, checked } = event.target;
+    type === "checkbox"
+      ? this.setState({ [name]: checked })
+      : this.setState({
+          [name]: value
+        });
   }
 
   render() {
