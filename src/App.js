@@ -20,6 +20,7 @@ class App extends React.Component {
       <form>
         <input
           type="text"
+          value={this.state.firstName}
           name="firstName"
           placeholder="First Name"
           onChange={this.handleChange}
@@ -27,6 +28,7 @@ class App extends React.Component {
         <br />
         <input
           type="text"
+          value={this.state.lastName}
           name="lastName"
           placeholder="Last Name"
           onChange={this.handleChange}
