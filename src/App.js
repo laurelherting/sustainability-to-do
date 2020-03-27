@@ -38,7 +38,15 @@ class App extends React.Component {
 
         <textarea value={"default value"} />
 
-        <input type="checkbox" checked={this.state.isInterested} />
+        <label>
+          <input
+            type="checkbox"
+            name="isInterested"
+            checked={this.state.isInterested}
+            onChange={this.handleChange}
+          />{" "}
+          Is interested?
+        </label>
 
         <h1>
           {this.state.firstName} {this.state.lastName}
