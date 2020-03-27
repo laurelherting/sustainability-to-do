@@ -5,7 +5,8 @@ class App extends React.Component {
     super();
     this.state = {
       firstName: "",
-      lastName: ""
+      lastName: "",
+      isInterested: true
     };
   }
 
@@ -36,6 +37,8 @@ class App extends React.Component {
         />
 
         <textarea value={"default value"} />
+
+        <input type="checkbox" checked={this.state.isInterested} />
 
         <h1>
           {this.state.firstName} {this.state.lastName}
