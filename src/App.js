@@ -76,7 +76,11 @@ class App extends React.Component {
           Female
         </label>
 
-        <select value={this.state.bestDay}>
+        <select
+          value={this.state.bestDay}
+          onChange={this.handleChange}
+          name="bestDay"
+        >
           <option></option>
           <option></option>
           <option></option>
