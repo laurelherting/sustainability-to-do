@@ -8,7 +8,7 @@ class App extends React.Component {
       lastName: "",
       isInterested: true,
       gender: "",
-      favDay: "Sunday"
+      bestDay: "Sunday"
     };
   }
 
@@ -76,7 +76,7 @@ class App extends React.Component {
           Female
         </label>
 
-        <select value={this.state.favDay}>
+        <select value={this.state.bestDay}>
           <option></option>
           <option></option>
           <option></option>
