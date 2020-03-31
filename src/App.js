@@ -95,6 +95,7 @@ class App extends React.Component {
         </h1>
         <h2>You are a {this.state.gender}</h2>
         <h2>Your best day is {this.state.bestDay}</h2>
+        <button>Submit</button>
       </form>
     );
   }
