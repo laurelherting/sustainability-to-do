@@ -23,7 +23,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <form>
+      <form onSubmit={this.handleSubmit}>
         <input
           type="text"
           value={this.state.firstName}
