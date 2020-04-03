@@ -8,7 +8,9 @@ class App extends React.Component {
       lastName: "",
       isInterested: true,
       gender: "",
-      bestDay: "Sunday"
+      destination: "",
+      task: "",
+      bestDay: "Sunday",
     };
   }
 
@@ -17,7 +19,7 @@ class App extends React.Component {
     type === "checkbox"
       ? this.setState({ [name]: checked })
       : this.setState({
-          [name]: value
+          [name]: value,
         });
   }
 
