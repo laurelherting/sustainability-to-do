@@ -78,6 +78,8 @@ class App extends React.Component {
           Female
         </label>
 
+        {/* Create radio buttons for destination here */}
+
         <select
           value={this.state.bestDay}
           onChange={this.handleChange}
@@ -91,6 +93,8 @@ class App extends React.Component {
           <option value="Friday">Friday</option>
           <option value="Saturday">Saturday</option>
         </select>
+
+        {/* Create radio buttons for tasks here */}
 
         <h1>
           {this.state.firstName} {this.state.lastName}
