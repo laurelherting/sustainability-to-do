@@ -9,8 +9,8 @@ class App extends React.Component {
       isInterested: true,
       gender: "",
       destination: "",
-      task: "",
       bestDay: "Sunday",
+      task: [],
     };
   }
 
