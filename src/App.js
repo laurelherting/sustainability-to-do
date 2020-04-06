@@ -12,6 +12,7 @@ class App extends React.Component {
       bestDay: "Sunday",
       task: [],
     };
+    this.handleChange = this.handleChange.bind();
   }
 
   handleChange(event) {
