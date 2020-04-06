@@ -28,16 +28,16 @@ class App extends React.Component {
       <form onSubmit={this.handleSubmit}>
         <input
           type="text"
-          value={this.state.firstName}
           name="firstName"
+          value={this.state.firstName}
           placeholder="First Name"
           onChange={this.handleChange}
         />
         <br />
         <input
           type="text"
-          value={this.state.lastName}
           name="lastName"
+          value={this.state.lastName}
           placeholder="Last Name"
           onChange={this.handleChange}
         />
