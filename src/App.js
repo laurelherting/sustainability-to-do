@@ -8,7 +8,6 @@ class App extends React.Component {
       lastName: "",
       isInterested: true,
       gender: "",
-      destination: "",
       bestDay: "Sunday",
       task: [],
     };
@@ -79,8 +78,6 @@ class App extends React.Component {
             />{" "}
             Female
           </label>
-
-          {/* Create radio buttons for destination here */}
 
           <select
             value={this.state.bestDay}
