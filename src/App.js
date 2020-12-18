@@ -8,7 +8,7 @@ class App extends React.Component {
       lastName: "",
       isInterested: true,
       gender: "",
-      bestDay: "Sunday",
+      bestDay: "Saturday",
       task: [],
     };
     this.handleChange = this.handleChange.bind();
@@ -111,6 +111,6 @@ class App extends React.Component {
       </main>
     );
   }
-}
+ -l
 
 export default App;
